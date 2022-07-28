@@ -1,15 +1,15 @@
 # luasm
 
-A **Lua 5.3** module assembler that combines multiple modules into a single module.
+A **Lua 5.1-5.3/JIT** module assembler that combines multiple modules into a single module.
 
 This project was quickly hacked together using large portions of the WindSeed compiler, in _1.5 hours_. It probably has many bugs!
-
-It probably works for Lua 5.2 too, but it is untested.
 
 ## Dependencies
 
 - [Lua 5.3][1]
 - [lpeglabel][2]
+
+luasm itself requires **Lua 5.3** to work. It can accept code written for any of **Lua 5.1-5.3/JIT** as input. Output is compatible with **Lua 5.1-5.3/JIT** depending on the syntax features used in the input.
 
 Ensure lpeglabel is available in a Lua `CPATH` i.e. in the _current directory_ or `/usr/lib/lua/5.3/` for Linux.
 
