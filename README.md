@@ -2,7 +2,7 @@
 
 A **Lua 5.1-5.3/JIT** module assembler that combines multiple modules into a single module.
 
-This project was quickly hacked together using large portions of the WindSeed compiler, in _1.5 hours_. It probably has many bugs!
+This project was quickly hacked together using large portions of the WindSeed compiler. It probably has many bugs!
 
 ## Dependencies
 
@@ -48,8 +48,6 @@ Then run the assembler in your project directory.
 ```sh
 luasm -o out.lua
 ```
-
-That's it.
 
 ## Options
 
